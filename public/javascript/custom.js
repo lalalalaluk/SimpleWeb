@@ -21,10 +21,6 @@ $(document).ready(function() {
 		}
 	})
 
-	// rellax initialization
-
-		
-
 	// carousel plugin initialization
 	$('.owl-carousel').owlCarousel({
 	    loop:true,
@@ -60,8 +56,6 @@ $(document).ready(function() {
     if(screen.width > 768){
         new WOW().init();
     }
-    new WOW().init();
-     $('[data-fancybox]').fancybox({loop:true});
-    
+  
     //$(window).steller();
 });
